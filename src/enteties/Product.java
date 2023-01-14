@@ -28,6 +28,7 @@ public class Product {
         this.price = price;
     }
 
+    //We need to implement equals() and hashCode() to use containsKey() on the class Program
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
